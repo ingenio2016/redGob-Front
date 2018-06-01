@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Más Oportunidades</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card class="animated-slow bounceInLeft">
+
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="./assets/imgs/user.png">
+    </ion-avatar>
+    <h2><b>{{ profile[0].FirstName +" "+ profile[0].LastName }}</b></h2>
+    <p>{{ profile[0].Profile }}</p>
+  </ion-item>
+</ion-card>
+  <ion-img class="mapa animated-slow bounceIn" src="./assets/imgs/splash.png"></ion-img>
+  <ion-img class="footer-image animated-slow bounceIn" src="./assets/imgs/masoportunidades.png"></ion-img>
+</ion-content>

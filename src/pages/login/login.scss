@@ -1,0 +1,46 @@
+.content-box {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  padding: 10px, 10px, 10px, 10px
+}
+
+.header-image {
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  position:fixed;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  top:5%
+}
+
+.content-position {
+  position:fixed;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  top:23%;
+}
+
+.button-position {
+  position:fixed;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  top:46%;
+  width: 95%;
+  margin-right: 10px;
+  margin-left: 10px
+}
+
+.footer-image {
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  position: fixed;
+  left: 25%;
+  bottom: 5%;
+  align-items: center
+}

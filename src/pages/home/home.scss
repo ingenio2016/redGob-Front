@@ -1,0 +1,34 @@
+.footer-image {
+  width: 200px;
+  height: 100px;
+  background-color: transparent;
+  position: fixed;
+  left: 25%;
+  bottom: 5%;
+  align-items: center
+}
+
+.mapa {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  position:fixed;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  top: 37%;
+}
+
+.user-info{
+  text-align: right;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: italic
+}
+
+.user-profile{
+  text-align: right;
+  text-decoration: none;
+  font-size: 15px;
+  font-style: italic
+}

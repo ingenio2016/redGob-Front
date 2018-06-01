@@ -1,0 +1,18 @@
+<ion-content class="content-box">
+  <ion-img class="header-image animated-slow bounceIn" src="./assets/imgs/silvano.png"></ion-img>
+  <ion-list class="content-position">
+    <ion-item class="animated bounceInRight">
+     <ion-label fixed>Correo</ion-label>
+     <ion-input type="email" value="" [(ngModel)]="correo"></ion-input>
+   </ion-item>
+
+   <ion-item class="animated bounceInRight">
+     <ion-label fixed>Contraseña</ion-label>
+     <ion-input type="password" [(ngModel)]="contrasena"></ion-input>
+   </ion-item>
+
+</ion-list>
+
+<button class="button-position animated-slow bounceIn" (click)="ingresar()" ion-button block>Ingresar</button>
+<ion-img class="footer-image animated-slow bounceIn" src="./assets/imgs/masoportunidades.png"></ion-img>
+</ion-content>

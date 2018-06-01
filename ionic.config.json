@@ -1,0 +1,8 @@
+{
+  "name": "redgobernacion",
+  "app_id": "b4ce4c01",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

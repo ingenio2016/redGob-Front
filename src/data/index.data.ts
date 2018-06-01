@@ -1,0 +1,9 @@
+export { CITIES_ARRAY } from './city';
+export { COMMUNES_ARRAY } from './communes';
+export { COUNTRIES_ARRAY } from './country';
+export { DEPARTMENTS_ARRAY } from './department';
+export { REDUSERS_ARRAY } from './red-users';
+export { USERS_ARRAY } from './users';
+export { VOTINGPLACES_ARRAY } from './voting-places';
+export { ASOCIATIONS_ARRAY } from './asociations';
+export { WORKPLACES_ARRAY } from './work-place';
